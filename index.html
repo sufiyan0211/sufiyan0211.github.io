@@ -26,12 +26,10 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#courses">Online Courses</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publications">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#recommendations">Recommendations</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#achievments">Achievments</a></li>
                 </ul>
             </div>
@@ -56,60 +54,45 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">SRM IST, Chennai</h3>
-                            <div class="subheading mb-3">Bachelor of Technology</div>
-                            <div>Computer Science Engineering</div>
-                            <p>CGPA: 9.10</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">June 2017 - May 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Milliya Junior College, Beed</h3>
-                            <div class="subheading mb-3"></div>
-                            <div>Mathematics & Computer Science</div>
-                            <p>Percentage: 82.00%</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2016</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Milliya Boys High School, Beed</h3>
-                            <div class="subheading mb-3">SSC</div>
-                            <div>Science & Mathematics</div>
-                            <p>Percentage: 88.40%</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2014</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
+                    <h2 class="mb-5">Experience (4+ years)</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Software Engineer 2</h3>
+                            <div class="subheading mb-3">
+                                <a href="https://bharatpe.com/" target="_blank">
+                                    <img alt="BharatPe Logo" src="assets/img/bharatpe-logo.png" style="max-height: 32px;">
+                                </a>
+                            </div>
+                            <ul>
+                                <li>Designed and integrated the <b>payment gateway</b> infrastructure for the <b>auto-collections</b> system, embedding it into the customer portal, resulting in an <b>18%</b> increase in portal traffic and reducing manual collection costs by <b>2%</b> per transaction.</li>
+                                <li>Led a <b>4-engineer</b> pod, driving technical design, code quality standards, and production reliability for lending and repayment systems.</li>
+                                <li>Architected and built all lending microservices using <b>Spring WebFlux</b> (reactive, non-blocking model), improving request handling capacity by <b>2x</b> and reducing memory footprint by <b>~30%</b> under peak load.</li>
+                                <li>Designed and integrated payout infrastructure for the <b>auto-disbursal</b> system, initially launched in pilot mode covering <b>10%</b> of total loan disbursals, with strict safeguards ensuring <b>zero tolerance</b> for double disbursals.</li>
+                                <li>Re-architected the <b>KYC</b> workflow into a parallel, multi-vendor failover funnel, reducing KYC error rates by <b>10%</b> while maintaining consistent response latency and high availability.</li>
+                                <li>Tuned <b>Kafka</b> Messaging queue to process <b>1M+</b> transactions per day without system degradation.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2025 - Present</span><br><span class="text-muted small">Gurugram, India</span></div>
+                    </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Software Engineer</h3>
                             <div class="subheading mb-3">
                                 <a href="https://bharatpe.com/" target="_blank">
-                                    <img alt="BharatPe Logo"  src="assets/img/bharatpe-logo.png" style="max-height: 32px;">
+                                    <img alt="BharatPe Logo" src="assets/img/bharatpe-logo.png" style="max-height: 32px;">
                                 </a>
                             </div>
                             <ul>
-                                <li>Separated the entire codebase and database for TrillionLoans organisation from LiquiLoans organisations.</li>
-                                <li>Built database queues to sync systems asynchronously for high volume of data.</li>
-                                <li>Developed a new product, <b>Credit Line</b>, and successfully onboarded our first client, <b>Razorpay</b>.</li>
-                                <li>Built Idempotentecy Feature for APIs.</li>
+                                <li>Led the full separation of <b>TrillionLoans</b> and <b>LiquiLoans</b> infrastructure, executing a <b>zero-downtime</b> migration with no data loss across the services.</li>
+                                <li>Integrated <b>Account Aggregator</b> services into the <b>Business Rule Engine (BRE)</b> to ingest <b>GST</b> and bank account statement data, enabling more accurate assessment of customer eligibility and optimized loan amount determination.</li>
+                                <li>Re-architected the complex <b>Business Rule Engine (BRE)</b> by extracting it from the monolithic <b>Loan Origination System (LOS)</b> into a dedicated Risk microservice, improving modularity, scalability, and independent deployment.</li>
+                                <li>Optimised the microservice memory management and <b>GC</b> tuning, reducing memory consumption by <b>30%</b> and eliminating production memory leaks.</li>
                             </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2023 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2023 - May 2025</span><br><span class="text-muted small">Mumbai, India</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -120,15 +103,13 @@
                                 </a>
                             </div>
                             <ul>
-                                <li>Designed, developed, tested, and deployed a database sharding solution for the Stripe payment microservice from scratch within 2 weeks.</li>
-                                <li>Provisioned the Stripe microservice on AWS across different regions.</li>
-                                <li>Built a framework to prevent bot attacks on payment pages. This framework dynamically identifies attacks and applies preventive measures to payment pages.</li>
-                                <li>Worked with various payment gateways, including Adyen, Stripe, and Worldpay.</li>
-                                <li>Served as a primary/secondary on-call engineer, handling both P1 and P2 payment incidents and providing quick solutions to resolve them.</li>
-                                <li>Developed internal APIs for both monolithic and microservice-based code architectures.</li>
+                                <li>Designed and migrated <b>Real-Time-Reconciliation</b> Payment Microservice from a monolithic database to a multi-sharded database, enabling horizontal scaling for a rapidly growing global user base.</li>
+                                <li>Designed and built <b>Stripe</b> Payment Microservice that handles <b>1M+</b> transactions per month.</li>
+                                <li>Built a generalised smart bot attack prevention framework to dynamically detect and mitigate brute-force payment attempts across integrated gateways (<b>Adyen</b>, <b>Stripe</b>, <b>Worldpay</b>, <b>PayPal</b>, <b>Bluesnap</b>), which reduces the attack surface.</li>
+                                <li>Served as primary/secondary on-call engineer for high-impact payment incidents, driving root-cause analysis and system hardening initiatives.</li>
                             </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2021 - Dec 2022</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2021 - Dec 2022</span><br><span class="text-muted small">Chennai, India</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -139,11 +120,12 @@
                                 </a>
                             </div>
                             <ul>
-                                <li>Built automation scripts using Selenium to generate invoice templates for OpenText.</li>
-                                <li>Automated EDI (Electronic Data Interchange) documents for various EDI standards.</li>
+                                <li>Developed a scalable <b>batch reconciliation</b> framework to process high-volume payment records, identifying discrepancies through rule-based matching and ensuring financial consistency.</li>
+                                <li>Designed secure <b>webhook</b> handlers for payment status callbacks, implementing signature verification and eventual consistency mechanisms to handle asynchronous gateway events.</li>
+                                <li>Improved unit test coverage across payment services by <b>45%</b>, strengthening reliability and reducing regression issues in production releases.</li>
                             </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">May 2021 - June 2021</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2021 - June 2021</span><br><span class="text-muted small">Hyderabad, India</span></div>
                     </div>
                 </div>
             </section>
@@ -194,85 +176,101 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Projects-->
-            <section class="resume-section" id="projects">
+            <!-- Education-->
+            <section class="resume-section" id="education">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
-                    <div class='row'>
-                        <div class="card" style="width: 20rem;">
-                            <img src="assets/img/url-shortner.png" class="card-img-top" alt="..." width="480" height="240">
-                            <div class="card-body">
-                                <h5 class="card-title">Url Shortener</h5>
-                                <p class="card-text">A web application that converts long URLs into shorter URLs of 8 characters and stores them in a database. The shorter URL can then be used to access the original long URL.</p>
-                                <a href="..." class="btn btn-primary">Details</a>
-                                <a href="https://github.com/sufiyan0211/UrlShortner" class="btn btn-primary" target="_blank">Git Repo</a>
-                                <a href="http://p1.sufiyandev.com/" class="btn btn-primary" target="_blank">Live Url</a>
-                            </div>
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">SRM IST, Chennai</h3>
+                            <div class="subheading mb-3">Bachelor of Technology</div>
+                            <div>Computer Science Engineering</div>
+                            <p>CGPA: 9.10</p>
                         </div>
-                        <hr class="p-3" />
-<!--                        <div class="card" style="width: 20rem;">-->
-<!--                            <img src="{{ obj.image.url }}" class="card-img-top" alt="..." width="480" height="240">-->
-<!--                            <div class="card-body">-->
-<!--                                <h5 class="card-title">{{ obj.title }}</h5>-->
-<!--                                <p class="card-text">{{ obj.description | truncatechars:80 }}</p>-->
-<!--                                <a href="{% url 'details' obj.id %}" class="btn btn-primary">Details</a>-->
-<!--                                {% if obj.gitUrl %} <a href="{{ obj.gitUrl }}" class="btn btn-primary"  >Git Repo</a> {% endif %}-->
-<!--                                {% if obj.liveUrl %} <a href="{{ obj.liveUrl }}" class="btn btn-primary" target="_blank">Live Url</a> {% endif %}-->
-<!--                            </div>-->
-<!--                        </div>-->
-                        <hr class="p-3" />
+                        <div class="flex-shrink-0"><span class="text-primary">June 2017 - May 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Milliya Junior College, Beed</h3>
+                            <div class="subheading mb-3"></div>
+                            <div>Mathematics & Computer Science</div>
+                            <p>Percentage: 82.00%</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2016</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Milliya Boys High School, Beed</h3>
+                            <div class="subheading mb-3">SSC</div>
+                            <div>Science & Mathematics</div>
+                            <p>Percentage: 88.40%</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2014</span></div>
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Courses-->
-            <section class="resume-section" id="courses">
+            <!-- Recommendations-->
+            <section class="resume-section" id="recommendations">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Online Courses</h2>
-                    <div class='row'>
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/img/course/machine-learning-course.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Machine Learning</h5>
-                                <p class="card-text">Coursera</p>
-                                <a href="..." class="btn btn-primary">Details</a>
+                    <h2 class="mb-5">Recommendations</h2>
+                    <p class="mb-4">What colleagues say about working with me — from my <a href="https://www.linkedin.com/in/sufiyan0211/details/recommendations/" target="_blank">LinkedIn Recommendations</a>.</p>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card h-100 border-primary">
+                                <div class="card-body">
+                                    <blockquote class="blockquote mb-0">
+                                        <p class="card-text">"Sofiyan worked on electronic payment processing and payment gateway integrations in Zuora Payment Engineering team, he picked up the domain knowledge real quick and learnt our tech stack well, he is proactive and has the willingness to solve complex problems."</p>
+                                        <footer class="blockquote-footer mt-2">
+                                            <a href="https://www.linkedin.com/in/billxguo" target="_blank" class="text-primary">Xi Guo</a>
+                                            <span class="small text-muted"> · <a href="https://www.linkedin.com/in/sufiyan0211/" target="_blank">view on LinkedIn</a></span>
+                                        </footer>
+                                    </blockquote>
+                                </div>
                             </div>
                         </div>
-                        <hr class="p-3" />
-<!--                        <div class="card" style="width: 18rem;">-->
-<!--                            <img src="{{ courses_obj.image.url }}" class="card-img-top" alt="...">-->
-<!--                            <div class="card-body">-->
-<!--                                <h5 class="card-title">{{ courses_obj.title }}</h5>-->
-<!--                                <p class="card-text">{{ courses_obj.platform | truncatechars:50 }}</p>-->
-<!--                                <a href="{% url 'courses_details' courses_obj.id %}" class="btn btn-primary">Details</a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <hr class="p-3" />-->
-                    </div>
-
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Publications-->
-            <section class="resume-section" id="publications">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Publications</h2>
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="assets/img/cancer-publication.jpeg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Skin Cancer Classification Using Random Forest Algorithm</h5>
-                            <p class="card-text">International Journal of Management and Humanities (IJMH)</p>
-                            <a href="..." class="btn btn-primary">Details</a>
+                        <div class="col-md-6">
+                            <div class="card h-100 border-primary">
+                                <div class="card-body">
+                                    <blockquote class="blockquote mb-0">
+                                        <p class="card-text">"I worked closely with Sofiyan during the early and most critical phase of building the TrillionLoans technology infrastructure at BharatPe.
+                                            Sofiyan was the first engineer on the TrillionLoans tech stack, joining at a time when the business was scaling rapidly and the system was still being built from the ground up. For nearly six months, he independently owned the entire backend ecosystem — from designing and implementing core services to ensuring system stability, scalability, and reliability as transaction volumes grew.
+                                            What truly set Sofiyan apart was his end-to-end ownership mindset. He didn’t just write code; he made architectural decisions, solved production issues proactively, and ensured the platform could scale with the business. As the team expanded, Sofiyan played a key role in onboarding and mentoring new engineers, setting coding standards, and helping them ramp up quickly."</p>
+                                        <footer class="blockquote-footer mt-2">
+                                            <a href="https://www.linkedin.com/in/sufiyan0211/" target="_blank" class="text-primary">Yogender</a>
+                                            <span class="small text-muted"> · <a href="https://www.linkedin.com/in/sufiyan0211/" target="_blank">view on LinkedIn</a></span>
+                                        </footer>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 border-primary">
+                                <div class="card-body">
+                                    <blockquote class="blockquote mb-0">
+                                        <p class="card-text">"Sofiyan has been a consistent and reliable worker during his time with us. He is a team player with a knack for organizing his work, which was particularly helpful given the context switching involved in working with different gateways in Zuora. It was a pleasure working alongside him, and I have no doubt that he would be a great asset to any company he joins."</p>
+                                        <footer class="blockquote-footer mt-2">
+                                            <a href="https://www.linkedin.com/in/sufiyan0211/" target="_blank" class="text-primary">Shrey</a>
+                                            <span class="small text-muted"> · <a href="https://www.linkedin.com/in/sufiyan0211/" target="_blank">view on LinkedIn</a></span>
+                                        </footer>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 border-primary">
+                                <div class="card-body">
+                                    <blockquote class="blockquote mb-0">
+                                        <p class="card-text">"It was a great pleasure working with such an innovative brain! During his tenure in Zuora, Sofiyan has consistently contributed and improved the code base whether it's legacy or new microservices. He is really good at implementation! — yeah you can't challenge him in 'SOLID' principles! Really good in system design along with amazing implementation skills. Really enjoyed working with him! Best of luck Sofiyan!"</p>
+                                        <footer class="blockquote-footer mt-2">
+                                            <a href="https://www.linkedin.com/in/deepak-kumar-singh-2740091b2" target="_blank" class="text-primary">Deepak</a>
+                                            <span class="small text-muted"> · <a href="https://www.linkedin.com/in/sufiyan0211/" target="_blank">view on LinkedIn</a></span>
+                                        </footer>
+                                    </blockquote>
+                                </div>
+                            </div>
                         </div>
                     </div>
-<!--                    <div class="card" style="width: 18rem;">-->
-<!--                        <img class="card-img-top" src="assets/img/cancer-publication.jpeg" alt="Card image cap">-->
-<!--                        <div class="card-body">-->
-<!--                            <h5 class="card-title">Skin Cancer Classification Using Random Forest Algorithm</h5>-->
-<!--                            <p class="card-text">International Journal of Management and Humanities (IJMH)</p>-->
-<!--                            <a href="..." class="btn btn-primary">Details</a>-->
-<!--                        </div>-->
-<!--                    </div>-->
                 </div>
             </section>
             <hr class="m-0" />
